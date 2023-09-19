@@ -1,0 +1,96 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+ol, ul {
+    list-style-position: inside;
+}
+
+.section {
+    display: flex;
+    background: grey;
+    justify-content: center;
+}
+
+/*sides*/
+.left-side-info {
+    background: red;
+    width: 25%;
+}
+.main-info {
+    width: 55%;
+    background: white;
+}
+/*avatar*/
+.left-side-info img {
+    width: 100%;
+}
+
+/*text*/
+.left-side-info {
+    color: white;
+}
+
+.group-title {
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 60px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2 {
+    margin: 10px 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 20px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p, li {
+    font-size: 18px;
+}
+h2, p, li {
+    font-family: 'Questrial', sans-serif;
+}
+
+/*blocks*/
+.education-block {
+    color: red;
+}
+
+.block, .projects-block, .education-block {
+    margin: 10px 20px;
+}
+
+.block p {
+    width: 300px;
+}
+
+.projects-block {
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.block-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.technologies {
+    margin-top: 20px;
+}
