@@ -10,6 +10,7 @@
 body{
     height: 100%;
     overflow-y: scroll;
+    background: grey;
 }
 
 ol, ul {
@@ -18,17 +19,18 @@ ol, ul {
 
 .section {
     display: flex;
-    background: grey;
-    justify-content: center;
+    max-width: 1050px;
+    margin: 0 auto;
 }
 
 /*sides*/
 .left-side-info {
     background: red;
-    width: 25%;
+    width: 35%;
 }
+
 .main-info {
-    width: 55%;
+    width: 65%;
     background: white;
 }
 /*avatar*/
@@ -50,6 +52,7 @@ h1 {
     color: red;
     font-family: 'Roboto', sans-serif;
 }
+
 h1, h2 {
     margin: 10px 20px;
 }
@@ -62,6 +65,7 @@ h3 {
 
 p, li {
     font-size: 18px;
+    margin: 5px;
 }
 h2, p, li {
     font-family: 'Questrial', sans-serif;
@@ -72,12 +76,12 @@ h2, p, li {
     color: red;
 }
 
-.block, .projects-block, .education-block {
+.regular-block, .projects-block, .education-block {
     margin: 10px 20px;
 }
 
-.block p {
-    width: 300px;
+.regular-block p, .education-block p {
+    max-width: 300px;
 }
 
 .projects-block {
@@ -93,4 +97,17 @@ h2, p, li {
 
 .technologies {
     margin-top: 20px;
+}
+
+.education-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Розбиває контейнер на дві рівні колонки */
+    grid-gap: 20px;
+}
+/*line*/
+hr {
+    margin: 0px 20px;
+    padding: 2px;
+    border: 0px;
+    background: red;
 }
