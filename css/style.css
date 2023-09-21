@@ -34,7 +34,7 @@ ol, ul {
     background: white;
 }
 /*avatar*/
-.left-side-info img {
+img {
     width: 100%;
 }
 
@@ -65,7 +65,7 @@ h3 {
 
 p, li {
     font-size: 18px;
-    margin: 5px;
+    margin: 5px 0px;
 }
 h2, p, li {
     font-family: 'Questrial', sans-serif;
